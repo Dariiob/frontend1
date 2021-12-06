@@ -62,6 +62,7 @@ export default class Login extends React.Component {
 				errors: { 'usermsg': msg }
 			});
 		}
+		
 	}
 
 	render() {
@@ -83,6 +84,7 @@ export default class Login extends React.Component {
 							<button className="boton-login" type="submit">
 								Iniciar Sesión
 							</button>
+							
 							<img src="./carita-feliz.png" alt="" />
 						</Form>
 					</div>

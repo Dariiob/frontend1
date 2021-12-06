@@ -40,6 +40,9 @@ function NavBar(){
                 <Link className="Logueo" to='/login'>
                   <Nav.Link href="#Login">Inicia sesión</Nav.Link>
                 </Link>
+                <Link className="Logueo" to='/usuarios/crear'>
+                  <Nav.Link href="#Login">crear usuarios</Nav.Link>
+                </Link>
           </Container>
     </Navbar>
   );
