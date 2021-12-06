@@ -1,5 +1,5 @@
 import "../../App.css";
-import Switch, { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import axios from "axios";
 import { useState, useEffect } from "react";
 
