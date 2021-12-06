@@ -11,7 +11,7 @@ import SeccionCreate from '../components/Secciones/SeccionCreate';
 import SeccionUpdate from '../components/Secciones/SeccionUpdate';
 import Preguntas from '../components/Preguntas/Preguntas';
 import Login from '../components/autentication/login';
-import { Switch, Route } from 'react-router-dom';
+import 	Switch, { Route } from 'react-router-dom';
 
 function Routing() {
 
