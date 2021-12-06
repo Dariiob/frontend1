@@ -9,7 +9,7 @@ let history=useHistory()
 const[encuestas, setEncuestas] = useState([]);
 
 useEffect( () => {
-	 axios.get('http://localhost:5000/encuestas').then((response)=> {
+	 axios.get(URL_SERVIDOR +'/encuestas').then((response)=> {
     	setEncuestas(response.data)
     })
 
@@ -24,7 +24,7 @@ useEffect( () => {
       id_encuesta: form.id_encuesta.value,
     };
     
-    await axios.post('http://localhost:5000/secciones', data)
+    await axios.post(URL_SERVIDOR +'/secciones', data)
     .then((response) => {
       console.log(response.data);
     });

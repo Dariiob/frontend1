@@ -10,10 +10,10 @@ function Usuarios() {
   const[usuarios, setUsuarios ] = useState([]);
 
   const deleteUser = async (id) =>{
-      await axios.delete(`http://localhost:5000/usuarios/${id}`).then((response)=> {
+      await axios.delete(URL_SERVIDOR +`/usuarios/${id}`).then((response)=> {
       console.log(response.data)
     })
-    axios.get('http://localhost:5000/usuarios').then((response)=> {
+    axios.get(URL_SERVIDOR +'/usuarios').then((response)=> {
     setUsuarios(response.data)
     })
   }
@@ -26,7 +26,7 @@ function Usuarios() {
     console.log(token)
 
 
-    axios.get('http://127.0.0.1:5000/usuarios', {
+    axios.get(URL_SERVIDOR +'/usuarios', {
       headers: {
         'Authorization': `Bearer ${token.token}`
 

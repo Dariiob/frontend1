@@ -13,7 +13,7 @@ const {id} = useParams();
 
 useEffect(() => {
   async function loadUsuario(){
-      await axios.get(`http://localhost:5000/encuestas/${id}`).then((result)=>{
+      await axios.get(URL_SERVIDOR +`/encuestas/${id}`).then((result)=>{
           setEncuesta({
             id: result.data[0][3],
             nombre: result.data[0][0],

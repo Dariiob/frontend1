@@ -10,7 +10,7 @@ let history = useHistory();
   const [selectedFile, setSelectedFile] = useState(null);
 
 useEffect( () => {
-	axios.get('http://localhost:5000/usuarios').then((response)=> {
+	axios.get(URL_SERVIDOR +'/usuarios').then((response)=> {
     	setUsuarios(response.data)
     })
   },[setUsuarios]);

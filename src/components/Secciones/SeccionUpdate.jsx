@@ -12,7 +12,7 @@ function SeccionUpdate(){
   const[seccion, setSeccion]=useState({id:'', nombre:'', id_encuesta:''});
 
 useEffect(() => {
-	 axios.get('http://localhost:5000/encuestas').then((response)=> {
+	 axios.get(URL_SERVIDOR +'/encuestas').then((response)=> {
 
 		 console.log(response.data)
     	setEncuestas(response.data)
@@ -21,7 +21,7 @@ useEffect(() => {
 
 useEffect(() => {
   async function loadSeccion(){
-    await axios.get(`http://localhost:5000/secciones/${id}`).then((response)=> {
+    await axios.get(URL_SERVIDOR +`/secciones/${id}`).then((response)=> {
     console.log(response.data)
         setSeccion({
           id: response.data[0][0],
@@ -43,7 +43,7 @@ const putseccion = async (event)=>{
       id_encuesta: `${form.id_encuesta.value===""? seccion.id_encuesta: form.id_encuesta.value}`,
     };
 
-      await axios.put(`http://localhost:5000/secciones/${seccion.id}`, data).then((response)=> {
+      await axios.put(URL_SERVIDOR +`/secciones/${seccion.id}`, data).then((response)=> {
         console.log(response.data);
       });
 

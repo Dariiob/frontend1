@@ -11,16 +11,16 @@ function Encuestas() {
 
 
   const deleteEncuesta = async (id) =>{
-      await axios.delete(`http://localhost:5000/encuesta/${id}`).then((response)=> {
+      await axios.delete(URL_SERVIDOR +`/encuesta/${id}`).then((response)=> {
       console.log(response.data)
     })
-      axios.get('http://127.0.0.1:5000/encuestas').then((response)=> {
+      axios.get(URL_SERVIDOR +'/encuestas').then((response)=> {
       setEncuestas(response.data)
       })
   }
 
   useEffect(()=>{
-  axios.get('http://127.0.0.1:5000/encuestas').then((response)=> {
+  axios.get(URL_SERVIDOR +'/encuestas').then((response)=> {
     //console.log(response.data);
     setEncuestas(response.data)
     })

@@ -14,7 +14,7 @@ const { id } = useParams();
   }, []);
 
   const loadUser = async () => {
-    const result = await axios.get(`http://localhost:5000/usuarios/${id}`);
+    const result = await axios.get(URL_SERVIDOR +`/usuarios/${id}`);
     setUsuario({
 		id: result.data[0][0],
 		nombre: result.data[0][1],
@@ -30,7 +30,7 @@ const putUser = async (event)=>{
       Correo: `${form.Correo.value===""? usuario.correo: form.Correo.value}`,
       Contraseña: `${form.contrasenia.value===""? usuario.contrasenia: form.contrasenia.value}`,
     };
-    await axios.put(`http://localhost:5000/usuario/${usuario.id}`, data).then((response)=> {
+    await axios.put(URL_SERVIDOR +`/usuario/${usuario.id}`, data).then((response)=> {
       console.log(response.data);
     });
     //fetchUsuarios();

@@ -10,7 +10,7 @@ function Secciones() {
   const [secciones, setSecciones] = useState([]);
 
   useEffect(() => {
-    axios.get('http://127.0.0.1:5000/secciones').then((response) => {
+    axios.get(URL_SERVIDOR +'/secciones').then((response) => {
       //console.log(response.data);
       setSecciones(response.data)
     })
@@ -19,9 +19,9 @@ function Secciones() {
 
 
   const deleteseccion = async (id) => {
-    await axios.delete(`http://localhost:5000/secciones/${id}`).then((response) => {
+    await axios.delete(URL_SERVIDOR +`/secciones/${id}`).then((response) => {
       console.log(response.data)
-      axios.get('http://127.0.0.1:5000/secciones').then((response) => {
+      axios.get(URL_SERVIDOR +'/secciones').then((response) => {
         //console.log(response.data);
         setSecciones(response.data)
       })

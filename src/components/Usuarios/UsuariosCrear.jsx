@@ -16,7 +16,7 @@ let history = useHistory();
       Contraseña: form.Contraseña.value,
       
     };
-    await axios.post('http://localhost:5000/registros', data)
+    await axios.post(URL_SERVIDOR +'/registros', data)
     .then((response) => {
       console.log(response.data);
     });

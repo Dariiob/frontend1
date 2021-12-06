@@ -16,26 +16,26 @@ function Preguntas() {
   const [preguntatipo, setPreguntatipo] = useState([]);
 
   useEffect(() => {
-    axios.get("http://localhost:5000/secciones").then((response) => {
+    axios.get(URL_SERVIDOR +"/secciones").then((response) => {
       setSecciones(response.data);
     });
   }, [setSecciones]);
 
   useEffect(() => {
-    axios.get("http://localhost:5000/tipo_preguntas").then((response) => {
+    axios.get(URL_SERVIDOR +"/tipo_preguntas").then((response) => {
       setPreguntatipo(response.data);
     });
   }, [setPreguntatipo]);
 
   useEffect(() => {
-    axios.get("http://127.0.0.1:5000/preguntas").then((response) => {
+    axios.get(URL_SERVIDOR +"/preguntas").then((response) => {
       //console.log(response.data);
       setPreguntas(response.data);
     });
   }, [setPreguntas]);
 
   function fetchPreguntas() {
-    axios.get("http://127.0.0.1:5000/preguntas").then((response) => {
+    axios.get(URL_SERVIDOR +"/preguntas").then((response) => {
       //console.log(response.data);
       setPreguntas(response.data);
     });
@@ -43,7 +43,7 @@ function Preguntas() {
 
   const deletepregunta = async (id) => {
     await axios
-      .delete(`http://localhost:5000/preguntas/${id}`)
+      .delete(URL_SERVIDOR +`/preguntas/${id}`)
       .then((response) => {
         console.log(response.data);
       });
@@ -71,7 +71,7 @@ function Preguntas() {
     };
 
     await axios
-      .put(`http://localhost:5000/preguntas/${pregunta.id}`, data)
+      .put(URL_SERVIDOR +`/preguntas/${pregunta.id}`, data)
       .then((response) => {
         console.log(response.data);
       });
@@ -99,7 +99,7 @@ function Preguntas() {
     };
 
     await axios
-      .post("http://localhost:5000/preguntas", data)
+      .post(URL_SERVIDOR +"/preguntas", data)
       .then((response) => {
         console.log(response.data);
       });

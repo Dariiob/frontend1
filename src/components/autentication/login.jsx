@@ -29,7 +29,7 @@ export default class Login extends React.Component {
 		console.log(this.state.contrasenia)
 		let msg=""
 
-		await axios.post(`http://127.0.0.1:5000/login`, { user })
+		await axios.post(URL_SERVIDOR +`/login`, { user })
 			.then(res => {
 				msg=""
 				console.log(res);
