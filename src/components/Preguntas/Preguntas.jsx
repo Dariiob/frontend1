@@ -1,8 +1,7 @@
 import "../../App.css";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import axios from "axios";
-import { useState, useEffect } from "react";
-import URL_SERVIDOR from "../../constante";
+import { useState, useEffect } from "reactimport URL_SERVIDOR from "../../constante";
 function Preguntas() {
   const [preguntas, setPreguntas] = useState([]);
   const [pregunta, setPregunta] = useState({
@@ -99,6 +98,14 @@ function Preguntas() {
     await axios.post(URL_SERVIDOR + "/preguntas", data).then((response) => {
       console.log(response.data);
     });
+IDOR +"/preguntas", data)
+      .then((response) => {
+        console.log(response.data);
+      });
+OR +"/preguntas", data)
+      .then((response) => {
+        console.log(response.data);
+      });
 
     fetchPreguntas();
   };

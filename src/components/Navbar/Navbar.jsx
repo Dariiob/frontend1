@@ -15,23 +15,28 @@ function NavBar() {
         </Link>
 
         <Nav className="mx-auto">
-          <Link to="/encuestas">
-            <Nav.Link href="#Encuestas">Encuestas</Nav.Link>
-          </Link>
+          {token && (
+            <Link to="/encuestas">
+              <Nav.Link href="#Encuestas">Encuestas</Nav.Link>
+            </Link>
+          )}
 
           {token && (
             <Link to="/usuarios">
               <Nav.Link href="#Usuarios">Usuarios</Nav.Link>
             </Link>
           )}
-
+          {token && (
           <Link to="/secciones">
             <Nav.Link href="#Secciones">Secciones</Nav.Link>
           </Link>
-
+          )}
+          {token && (
           <Link to="/preguntas">
             <Nav.Link href="#Preguntas">Preguntas</Nav.Link>
           </Link>
+          )}
+          
         </Nav>
         <Link className="Logueo" to="/login">
           <Nav.Link href="#Login">Inicia sesión</Nav.Link>
