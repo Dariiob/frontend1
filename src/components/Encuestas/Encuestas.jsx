@@ -10,9 +10,9 @@ function Encuestas() {
   const deleteEncuesta = async (id) => {
     await axios.delete(URL_SERVIDOR + `/encuesta/${id}`).then((response) => {
       console.log(response.data);
-    });
-    axios.get(URL_SERVIDOR + "/encuestas").then((response) => {
-      setEncuestas(response.data);
+      axios.get(URL_SERVIDOR + "/encuestas").then((response) => {
+        setEncuestas(response.data);
+      });
     });
   };
 
