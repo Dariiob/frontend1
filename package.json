@@ -3,7 +3,7 @@
   "name": "usuarios",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:5000",
+  "proxy": "https://61aeac4f4f7f4000075e833f--admiring-swanson-de6ac6.netlify.app/:443",
   "dependencies": {
     "axios": "^0.21.4",
     "bootstrap": "^5.1.3",
