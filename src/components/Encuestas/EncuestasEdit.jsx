@@ -32,7 +32,7 @@ function EncuestasEdit() {
   }, []);
 
   useEffect(() => {
-    axios.get("http://localhost:5000/usuarios").then((response) => {
+    axios.get(URL_SERVIDOR +"/usuarios").then((response) => {
       setUsuarios(response.data);
     });
   }, []);
@@ -67,7 +67,7 @@ function EncuestasEdit() {
     );
     formData.append("img_url", selectedFile);
     await axios
-      .put(`http://localhost:5000/encuesta/${id}`, formData)
+      .put(URL_SERVIDOR +`/encuesta/${id}`, formData)
       .then((response) => {
         console.log(response.data);
       });
@@ -106,7 +106,7 @@ function EncuestasEdit() {
               {usuarios.map((usuario) => {
                 return (
                   <option key={usuario.id} value={usuario.id}>
-                    {usuario.Correo}
+                    {usuario.correo}
                   </option>
                 );
               })}
