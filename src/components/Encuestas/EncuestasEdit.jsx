@@ -32,10 +32,18 @@ function EncuestasEdit() {
   }, []);
 
   useEffect(() => {
-    axios.get(URL_SERVIDOR +"/usuarios").then((response) => {
-      setUsuarios(response.data);
-    });
-  }, []);
+    var token = JSON.parse(localStorage.getItem("token_user"));
+
+    axios
+      .get(URL_SERVIDOR + "/usuarios", {
+        headers: {
+          Authorization: `Bearer ${token.token}`,
+        },
+      })
+      .then((response) => {
+        setUsuarios(response.data);
+      });
+  }, [setUsuarios]);
 
   const putEncuesta = async (event) => {
     event.preventDefault();
@@ -106,7 +114,7 @@ function EncuestasEdit() {
               {usuarios.map((usuario) => {
                 return (
                   <option key={usuario.id} value={usuario.id}>
-                    {usuario.correo}
+                    {usuario.Correo}
                   </option>
                 );
               })}

@@ -33,7 +33,7 @@ function EncuestasCreate() {
     formData.append("img_url", selectedFile);
 
     await axios
-      .post("http://localhost:5000/encuestas", formData)
+      .post(URL_SERVIDOR + "/encuestas", formData)
       .then((response) => {
         console.log(response.data);
       });
