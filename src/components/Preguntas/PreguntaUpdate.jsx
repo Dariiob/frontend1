@@ -1,10 +1,7 @@
-import React from 'react'
+import React from "react";
 
-function PreguntaUpdate(){
-	return (
-		<>
-		</>
-	);
+function PreguntaUpdate() {
+  return <></>;
 }
 
 export default PreguntaUpdate;

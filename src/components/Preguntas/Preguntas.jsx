@@ -2,7 +2,7 @@ import "../../App.css";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import axios from "axios";
 import { useState, useEffect } from "react";
-import URL_SERVIDOR from '../../constante';
+import URL_SERVIDOR from "../../constante";
 function Preguntas() {
   const [preguntas, setPreguntas] = useState([]);
   const [pregunta, setPregunta] = useState({
@@ -16,37 +16,35 @@ function Preguntas() {
   const [preguntatipo, setPreguntatipo] = useState([]);
 
   useEffect(() => {
-    axios.get(URL_SERVIDOR +"/secciones").then((response) => {
+    axios.get(URL_SERVIDOR + "/secciones").then((response) => {
       setSecciones(response.data);
     });
   }, [setSecciones]);
 
   useEffect(() => {
-    axios.get(URL_SERVIDOR +"/tipo_preguntas").then((response) => {
+    axios.get(URL_SERVIDOR + "/tipo_preguntas").then((response) => {
       setPreguntatipo(response.data);
     });
   }, [setPreguntatipo]);
 
   useEffect(() => {
-    axios.get(URL_SERVIDOR +"/preguntas").then((response) => {
+    axios.get(URL_SERVIDOR + "/preguntas").then((response) => {
       //console.log(response.data);
       setPreguntas(response.data);
     });
   }, [setPreguntas]);
 
   function fetchPreguntas() {
-    axios.get(URL_SERVIDOR +"/preguntas").then((response) => {
+    axios.get(URL_SERVIDOR + "/preguntas").then((response) => {
       //console.log(response.data);
       setPreguntas(response.data);
     });
   }
 
   const deletepregunta = async (id) => {
-    await axios
-      .delete(URL_SERVIDOR +`/preguntas/${id}`)
-      .then((response) => {
-        console.log(response.data);
-      });
+    await axios.delete(URL_SERVIDOR + `/preguntas/${id}`).then((response) => {
+      console.log(response.data);
+    });
     fetchPreguntas();
   };
 
@@ -71,7 +69,7 @@ function Preguntas() {
     };
 
     await axios
-      .put(URL_SERVIDOR +`/preguntas/${pregunta.id}`, data)
+      .put(URL_SERVIDOR + `/preguntas/${pregunta.id}`, data)
       .then((response) => {
         console.log(response.data);
       });
@@ -98,11 +96,9 @@ function Preguntas() {
       id_seccion: form.id_seccion.value,
     };
 
-    await axios
-      .post(URL_SERVIDOR +"/preguntas", data)
-      .then((response) => {
-        console.log(response.data);
-      });
+    await axios.post(URL_SERVIDOR + "/preguntas", data).then((response) => {
+      console.log(response.data);
+    });
 
     fetchPreguntas();
   };

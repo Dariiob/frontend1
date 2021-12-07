@@ -1,10 +1,7 @@
-import React from 'react'
+import React from "react";
 
-function PreguntaCreate(){
-	return (
-		<>
-		</>
-	);
+function PreguntaCreate() {
+  return <></>;
 }
 
 export default PreguntaCreate;

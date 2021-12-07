@@ -2,18 +2,16 @@
   text-align: center;
 }
 
-.navegacion{
+.navegacion {
   background: rgb(203, 203, 238);
 }
 
-
-.footer{
-	position: fixed;
-	left: 0;
-	bottom: 0;
-	width: 100%;
-	background: rgb(203, 203, 238);
-	
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: rgb(203, 203, 238);
 }
 
 .App-logo {
@@ -21,67 +19,64 @@
   pointer-events: none;
 }
 
-.Logueo{
+.Logueo {
   border: 1px solid #56a056;
   border-radius: 8px 8px 8px 8px;
   text-decoration: none;
   background: #8ae08a;
-	transition: color 0.5s, background 0.5s;
+  transition: color 0.5s, background 0.5s;
 }
-
-
 
 .grid-login {
-	display: grid;
-	grid-template-columns: repeat(1, 1fr);
-	gap: 1em;
-	padding: 1em;
-
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 1em;
+  padding: 1em;
 }
 
-.container-grid-login{
-	width: auto;
-	height: 495px;
+.container-grid-login {
+  width: auto;
+  height: 495px;
 }
 
-.container-grid-login * form{
-	width: 450px;
-	height: 400px; 
-	border: 2px solid rgb(203, 203, 238);;
-	padding: 1em;
+.container-grid-login * form {
+  width: 450px;
+  height: 400px;
+  border: 2px solid rgb(203, 203, 238);
+  padding: 1em;
   border-radius: 20px 20px 20px 20px;
   background-image: url(https://image.freepik.com/foto-gratis/bombilla-luz-fondo-ahorro-energia-verde-arboles-mezclados-medios_53876-104853.jpg);
   font-weight: bold;
 }
 
-.boton-login{
-	position: relative;
-	top: 30%; 
-	left: 25%; 
-	transform: translateX(-50%) translateY(-50%);
+.boton-login {
+  position: relative;
+  top: 30%;
+  left: 25%;
+  transform: translateX(-50%) translateY(-50%);
 
-	border: 1.5px solid #56a056;
-	padding: 10px 40px;
-	color: black;
-	font-weight: 700px;
-	font-weight: bold;
-	text-transform: uppercase;
-	background: #8ae08a;
-	transition: color 0.5s, background 0.5s;
-	border-radius: 10px;
+  border: 1.5px solid #56a056;
+  padding: 10px 40px;
+  color: black;
+  font-weight: 700px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: #8ae08a;
+  transition: color 0.5s, background 0.5s;
+  border-radius: 10px;
 }
 
-.boton-login:hover{
-	color: black;
-	background-color: #7cc27c;
+.boton-login:hover {
+  color: black;
+  background-color: #7cc27c;
 }
 
-.container-formulario-login img{
-	display: block;
-	width: 100px;
-	height: auto;
-	margin: auto;
-	margin-top: 30px;
+.container-formulario-login img {
+  display: block;
+  width: 100px;
+  height: auto;
+  margin: auto;
+  margin-top: 30px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -121,28 +116,29 @@
   grid-auto-rows: minmax(550px, auto);
 }
 
-.container1-grid{
+.container1-grid {
   padding: 1em;
 }
 
-.container1-c1-grid{  display: grid;
+.container1-c1-grid {
+  display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1em;
   grid-auto-rows: minmax(100px, auto);
 }
-.c1-grid1{
+.c1-grid1 {
   grid-column: 1/3;
   width: auto;
   height: 200px;
 }
 
-.c1-grid1 img{
+.c1-grid1 img {
   width: 70px;
   height: auto;
   position: relative;
-	top: 50%; 
-	left: 5%; 
-	transform: translateX(-50%) translateY(-50%);
+  top: 50%;
+  left: 5%;
+  transform: translateX(-50%) translateY(-50%);
 }
 
 .c1-grid1 h1 {
@@ -150,109 +146,108 @@
   font-weight: bold;
 
   position: relative;
-	top: 50%; 
-	left: 50%; 
-	transform: translateX(-50%) translateY(-50%);
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
 }
 
-.c2-grid1{
+.c2-grid1 {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   gap: 1em;
   padding: 1em;
 }
 
-.c2-c1-grid1 img{
+.c2-c1-grid1 img {
   width: 70px;
   height: auto;
   position: relative;
-	top: 50%; 
-	left: 12%; 
-	transform: translateX(-50%) translateY(-50%);
+  top: 50%;
+  left: 12%;
+  transform: translateX(-50%) translateY(-50%);
 }
 
-.c2-c2-grid1 p{
+.c2-c2-grid1 p {
   font-size: 20px;
 
   position: relative;
-	top: 50%; 
-	left: 50%; 
-	transform: translateX(-50%) translateY(-50%);
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
 }
 
-.c2-c3-grid1 p{
+.c2-c3-grid1 p {
   font-size: 20px;
 
   position: relative;
-	top: 40%; 
-	left: 50%; 
-	transform: translateX(-50%) translateY(-50%);
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
 }
 
-.c3-grid1{
+.c3-grid1 {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   gap: 1em;
   padding: 1em;
 }
 
-.c3-c1-grid1 img{
+.c3-c1-grid1 img {
   width: 70px;
   height: auto;
   position: relative;
-	top: 50%; 
-	left: 12%; 
-	transform: translateX(-50%) translateY(-50%);
+  top: 50%;
+  left: 12%;
+  transform: translateX(-50%) translateY(-50%);
 }
 
-.c3-c2-grid1 p{
+.c3-c2-grid1 p {
   font-size: 20px;
 
   position: relative;
-	top: 50%; 
-	left: 50%; 
-	transform: translateX(-50%) translateY(-50%);
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
 }
 
-.c3-c3-grid1 p{
+.c3-c3-grid1 p {
   font-size: 20px;
 
   position: relative;
-	top: 40%; 
-	left: 50%; 
-	transform: translateX(-50%) translateY(-50%);
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
 }
 
-.container2-grid img{
+.container2-grid img {
   width: 100%;
-  height: 640px;  
+  height: 640px;
 }
 
-.container4-c1-grid{
+.container4-c1-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1em;
   grid-auto-rows: minmax(100px, auto);
 }
 
-.container4-grid{
+.container4-grid {
   padding: 1em;
 }
 
-
-.c1-grid4{
+.c1-grid4 {
   grid-column: 1/3;
   width: auto;
   height: 200px;
 }
 
-.c1-grid4 img{
+.c1-grid4 img {
   width: 70px;
   height: auto;
   position: relative;
-	top: 50%; 
-	left: 5%; 
-	transform: translateX(-50%) translateY(-50%);
+  top: 50%;
+  left: 5%;
+  transform: translateX(-50%) translateY(-50%);
 }
 
 .c1-grid4 h1 {
@@ -260,82 +255,80 @@
   font-weight: bold;
 
   position: relative;
-	top: 50%; 
-	left: 50%; 
-	transform: translateX(-50%) translateY(-50%);
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
 }
 
-
-.c2-grid4{
+.c2-grid4 {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   gap: 1em;
   padding: 1em;
 }
 
-.c2-c1-grid4 img{
+.c2-c1-grid4 img {
   width: 70px;
   height: auto;
   position: relative;
-	top: 50%; 
-	left: 12%; 
-	transform: translateX(-50%) translateY(-50%);
+  top: 50%;
+  left: 12%;
+  transform: translateX(-50%) translateY(-50%);
 }
 
-.c2-c2-grid4 p{
+.c2-c2-grid4 p {
   font-size: 20px;
 
   position: relative;
-	top: 50%; 
-	left: 50%; 
-	transform: translateX(-50%) translateY(-50%);
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
 }
 
-.c2-c3-grid4 p{
+.c2-c3-grid4 p {
   font-size: 20px;
 
   position: relative;
-	top: 40%; 
-	left: 50%; 
-	transform: translateX(-50%) translateY(-50%);
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
 }
 
-.c3-grid4{
+.c3-grid4 {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   gap: 1em;
   padding: 1em;
 }
 
-.c3-c1-grid4 img{
+.c3-c1-grid4 img {
   width: 70px;
   height: auto;
   position: relative;
-	top: 50%; 
-	left: 12%; 
-	transform: translateX(-50%) translateY(-50%);
+  top: 50%;
+  left: 12%;
+  transform: translateX(-50%) translateY(-50%);
 }
 
-.c3-c2-grid4 p{
+.c3-c2-grid4 p {
   font-size: 20px;
 
   position: relative;
-	top: 50%; 
-	left: 50%; 
-	transform: translateX(-50%) translateY(-50%);
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
 }
 
-.c3-c3-grid4 p{
+.c3-c3-grid4 p {
   font-size: 20px;
 
   position: relative;
-	top: 40%; 
-	left: 50%; 
-	transform: translateX(-50%) translateY(-50%);
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
 }
 
-
-.container5-c1-grid{
+.container5-c1-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1em;
@@ -343,23 +336,23 @@
   padding: 1em;
 }
 
-.container5-grid{
+.container5-grid {
   padding: 1em;
 }
 
-.c1-grid5{
+.c1-grid5 {
   grid-column: 1/3;
   width: auto;
   height: 200px;
 }
 
-.c1-grid5 img{
+.c1-grid5 img {
   width: 70px;
   height: auto;
   position: relative;
-	top: 50%; 
-	left: 5%; 
-	transform: translateX(-50%) translateY(-50%);
+  top: 50%;
+  left: 5%;
+  transform: translateX(-50%) translateY(-50%);
 }
 
 .c1-grid5 h1 {
@@ -367,87 +360,86 @@
   font-weight: bold;
 
   position: relative;
-	top: 50%; 
-	left: 50%; 
-	transform: translateX(-50%) translateY(-50%);
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
 }
 
-.c2-grid5{
+.c2-grid5 {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   gap: 1em;
   padding: 1em;
 }
 
-.c2-c1-grid5 img{
+.c2-c1-grid5 img {
   width: 70px;
   height: auto;
   position: relative;
-	top: 50%; 
-	left: 12%; 
-	transform: translateX(-50%) translateY(-50%);
+  top: 50%;
+  left: 12%;
+  transform: translateX(-50%) translateY(-50%);
 }
 
-.c2-c2-grid5 p{
+.c2-c2-grid5 p {
   font-size: 20px;
 
   position: relative;
-	top: 50%; 
-	left: 50%; 
-	transform: translateX(-50%) translateY(-50%);
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
 }
 
-.c2-c3-grid5 p{
+.c2-c3-grid5 p {
   font-size: 20px;
 
   position: relative;
-	top: 40%; 
-	left: 50%; 
-	transform: translateX(-50%) translateY(-50%);
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
 }
 
-.c3-grid5{
+.c3-grid5 {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   gap: 1em;
   padding: 1em;
 }
 
-.c3-c1-grid5 img{
+.c3-c1-grid5 img {
   width: 70px;
   height: auto;
   position: relative;
-	top: 50%; 
-	left: 12%; 
-	transform: translateX(-50%) translateY(-50%);
+  top: 50%;
+  left: 12%;
+  transform: translateX(-50%) translateY(-50%);
 }
 
-.c3-c2-grid5 p{
+.c3-c2-grid5 p {
   font-size: 20px;
 
   position: relative;
-	top: 50%; 
-	left: 50%; 
-	transform: translateX(-50%) translateY(-50%);
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
 }
 
-.c3-c3-grid5 p{
+.c3-c3-grid5 p {
   font-size: 20px;
 
   position: relative;
-	top: 40%; 
-	left: 50%; 
-	transform: translateX(-50%) translateY(-50%);
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
 }
-
 
 .container6-grid img {
   width: auto;
   height: 400px;
   position: relative;
-	top: 50%; 
-	left: 50%; 
-	transform: translateX(-50%) translateY(-50%);
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
 }
 
 .container-encuestas-grid {
@@ -458,48 +450,47 @@
 
 .encuestas-boton {
   border: 1.5px solid #56a056;
-	padding: 10px 80px;
-	color: black;
-	font-weight: 700px;
-	font-weight: bold;
-	text-transform: uppercase;
-	background: #8EE38E;
-	transition: color 0.5s, background 0.5s;
-	border-radius: 10px;
+  padding: 10px 80px;
+  color: black;
+  font-weight: 700px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: #8ee38e;
+  transition: color 0.5s, background 0.5s;
+  border-radius: 10px;
 }
 
-.encuestas-boton:hover{
-	color: #56a056;
-	background-color: #BFF9BF;
+.encuestas-boton:hover {
+  color: #56a056;
+  background-color: #bff9bf;
 }
 
-.encuestas-tabla{
+.encuestas-tabla {
   position: relative;
-	top: 50%; 
-	left: 50%; 
-	transform: translateX(-50%) translateY(-50%);
-  
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
 }
 
-.encuestas-tabla th{
+.encuestas-tabla th {
   padding: 1em;
 }
-.encuestas-tabla td{
+.encuestas-tabla td {
   padding: 0.3em;
 }
-.encuestas-tabla thead{
-  background-color: #68B568;
+.encuestas-tabla thead {
+  background-color: #68b568;
   border-bottom: 2px solid black;
 }
-.encuestas-tabla tr:nth-child(even){
-  background-color: #DFFDDF;
+.encuestas-tabla tr:nth-child(even) {
+  background-color: #dffddf;
 }
 
-.encuestas-tabla tr:hover td{
-  background-color: #BFF9BF;
+.encuestas-tabla tr:hover td {
+  background-color: #bff9bf;
 }
 
-.container-encuestas-create{
+.container-encuestas-create {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   padding: 1em;
@@ -509,77 +500,75 @@
   height: 500px;
 }
 
-.encuestas-input1{
+.encuestas-input1 {
   width: 400px;
 }
-.encuestas-input2{
+.encuestas-input2 {
   width: 400px;
-  height: 100px
+  height: 100px;
 }
 
-.c-encuestas-create-form{
-  
+.c-encuestas-create-form {
   width: 700px;
   height: 450px;
   position: relative;
-	top: 50%; 
-	left: 50%; 
-	transform: translateX(-50%) translateY(-50%);
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
   border-radius: 20px 20px 20px 20px;
-
 
   background-image: url(https://image.freepik.com/vector-gratis/fondo-monocromatico-geometrico-degradado_23-2149000660.jpg);
   background-size: cover;
 }
 
-.c-encuestas-create-form p{
+.c-encuestas-create-form p {
   font-weight: bold;
 }
 
-.encuestas-create-boton1{
+.encuestas-create-boton1 {
   border: 1.5px solid #0502ca;
-	padding: 10px 20px;
-	color: black;
+  padding: 10px 20px;
+  color: black;
   font-size: 14px;
-	font-weight: 700px;
-	font-weight: bold;
-	text-transform: uppercase;
-	background: #4965ff;
-	transition: color 0.5s, background 0.5s;
-	border-radius: 10px;
+  font-weight: 700px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: #4965ff;
+  transition: color 0.5s, background 0.5s;
+  border-radius: 10px;
 
   position: relative;
-	top: 5%; 
-	left: 5%; 
-	transform: translateX(-50%) translateY(-50%);
+  top: 5%;
+  left: 5%;
+  transform: translateX(-50%) translateY(-50%);
 }
-.encuestas-create-boton1:hover{
-	color: black;
-	background-color: #979eff;
+.encuestas-create-boton1:hover {
+  color: black;
+  background-color: #979eff;
 }
 
-.encuestas-create-boton2{
+.encuestas-create-boton2 {
   border: 1.5px solid #ff0000;
-	padding: 10px 20px;
-	color: black;
+  padding: 10px 20px;
+  color: black;
   font-size: 14px;
-	font-weight: 700px;
-	font-weight: bold;
-	text-transform: uppercase;
-	background: #fa2c2c;
-	transition: color 0.5s, background 0.5s;
-	border-radius: 10px;
+  font-weight: 700px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: #fa2c2c;
+  transition: color 0.5s, background 0.5s;
+  border-radius: 10px;
 
   position: relative;
-	top: 5%; 
-	left: 12%; 
-	transform: translateX(-50%) translateY(-50%);
+  top: 5%;
+  left: 12%;
+  transform: translateX(-50%) translateY(-50%);
 }
-.encuestas-create-boton2:hover{
-	color: #000000;
-	background-color: #ff6e6e;
+.encuestas-create-boton2:hover {
+  color: #000000;
+  background-color: #ff6e6e;
 }
-.container-encuestas-edit{
+.container-encuestas-edit {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   padding: 1em;
@@ -589,75 +578,73 @@
   height: 500px;
 }
 
-.encuestas-edit-input1{
+.encuestas-edit-input1 {
   width: 400px;
 }
-.encuestas-edit-input2{
+.encuestas-edit-input2 {
   width: 400px;
-  height: 100px
+  height: 100px;
 }
 
-.c-encuestas-edit-form{
-  
+.c-encuestas-edit-form {
   width: 700px;
   height: 450px;
   position: relative;
-	top: 50%; 
-	left: 50%; 
-	transform: translateX(-50%) translateY(-50%);
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
   border-radius: 20px 20px 20px 20px;
-
 
   background-image: url(https://image.freepik.com/vector-gratis/fondo-monocromatico-geometrico-degradado_23-2149000660.jpg);
   background-size: cover;
 }
 
-.c-encuestas-edit-form p{
+.c-encuestas-edit-form p {
   font-weight: bold;
 }
 
-.encuestas-edit-boton1{
+.encuestas-edit-boton1 {
   border: 1.5px solid #0502ca;
-	padding: 10px 20px;
-	color: black;
+  padding: 10px 20px;
+  color: black;
   font-size: 14px;
-	font-weight: 700px;
-	font-weight: bold;
-	text-transform: uppercase;
-	background: #4965ff;
-	transition: color 0.5s, background 0.5s;
-	border-radius: 10px;
+  font-weight: 700px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: #4965ff;
+  transition: color 0.5s, background 0.5s;
+  border-radius: 10px;
 
   position: relative;
-	top: 5%; 
-	left: 5%; 
-	transform: translateX(-50%) translateY(-50%);
+  top: 5%;
+  left: 5%;
+  transform: translateX(-50%) translateY(-50%);
 }
-.encuestas-edit-boton1:hover{
-	color: black;
-	background-color: #979eff;
+.encuestas-edit-boton1:hover {
+  color: black;
+  background-color: #979eff;
 }
 
-.encuestas-edit-boton2{
+.encuestas-edit-boton2 {
   border: 1.5px solid #ff0000;
-	padding: 10px 20px;
-	color: black;
+  padding: 10px 20px;
+  color: black;
   font-size: 14px;
-	font-weight: 700px;
-	font-weight: bold;
-	text-transform: uppercase;
-	background: #fa2c2c;
-	transition: color 0.5s, background 0.5s;
-	border-radius: 10px;
+  font-weight: 700px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: #fa2c2c;
+  transition: color 0.5s, background 0.5s;
+  border-radius: 10px;
 
   position: relative;
-	top: 5%; 
-	left: 12%; 
-	transform: translateX(-50%) translateY(-50%);
+  top: 5%;
+  left: 12%;
+  transform: translateX(-50%) translateY(-50%);
 }
-.encuestas-edit-boton2:hover{
-	color: #000000;
-	background-color: #ff6e6e;
+.encuestas-edit-boton2:hover {
+  color: #000000;
+  background-color: #ff6e6e;
 }
 
 .container-usuarios-grid {
@@ -668,50 +655,48 @@
 
 .usuarios-boton {
   border: 1.5px solid #56a056;
-	padding: 10px 80px;
-	color: black;
-	font-weight: 700px;
-	font-weight: bold;
-	text-transform: uppercase;
-	background: #8EE38E;
-	transition: color 0.5s, background 0.5s;
-	border-radius: 10px;
-}
-
-.usuarios-boton:hover{
-	color: #56a056;
-	background-color: #BFF9BF;
-}
-
-.usuarios-tabla{
-  position: relative;
-	top: 50%; 
-	left: 50%; 
-	transform: translateX(-50%) translateY(-50%);
+  padding: 10px 80px;
+  color: black;
+  font-weight: 700px;
+  font-weight: bold;
   text-transform: uppercase;
-
-  
+  background: #8ee38e;
+  transition: color 0.5s, background 0.5s;
+  border-radius: 10px;
 }
 
-.usuarios-tabla th{
+.usuarios-boton:hover {
+  color: #56a056;
+  background-color: #bff9bf;
+}
+
+.usuarios-tabla {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  text-transform: uppercase;
+}
+
+.usuarios-tabla th {
   padding: 1em;
 }
-.usuarios-tabla td{
+.usuarios-tabla td {
   padding: 0.3em;
 }
-.usuarios-tabla thead{
-  background-color: #68B568;
+.usuarios-tabla thead {
+  background-color: #68b568;
   border-bottom: 2px solid black;
 }
-.usuarios-tabla tr:nth-child(even){
-  background-color: #DFFDDF;
+.usuarios-tabla tr:nth-child(even) {
+  background-color: #dffddf;
 }
 
-.usuarios-tabla tr:hover td{
-  background-color: #BFF9BF;
+.usuarios-tabla tr:hover td {
+  background-color: #bff9bf;
 }
 
-.container-usuarios-create{
+.container-usuarios-create {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   padding: 1em;
@@ -721,80 +706,78 @@
   height: 500px;
 }
 
-.usuarios-input1{
+.usuarios-input1 {
   width: 400px;
 }
-.usuarios-input2{
+.usuarios-input2 {
   width: 400px;
 }
-.usuarios-input3{
+.usuarios-input3 {
   width: 400px;
 }
 
-.c-usuarios-create-form{
-  
+.c-usuarios-create-form {
   width: 700px;
   height: 450px;
   position: relative;
-	top: 50%; 
-	left: 50%; 
-	transform: translateX(-50%) translateY(-50%);
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
   border-radius: 20px 20px 20px 20px;
-
 
   background-image: url(https://image.freepik.com/vector-gratis/fondo-monocromatico-geometrico-degradado_23-2149000660.jpg);
   background-size: cover;
 }
 
-.c-usuarios-create-form p{
+.c-usuarios-create-form p {
   font-weight: bold;
 }
 
-.usuarios-create-boton1{
+.usuarios-create-boton1 {
   border: 1.5px solid #0502ca;
-	padding: 10px 20px;
-	color: black;
+  padding: 10px 20px;
+  color: black;
   font-size: 14px;
-	font-weight: 700px;
-	font-weight: bold;
-	text-transform: uppercase;
-	background: #4965ff;
-	transition: color 0.5s, background 0.5s;
-	border-radius: 10px;
+  font-weight: 700px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: #4965ff;
+  transition: color 0.5s, background 0.5s;
+  border-radius: 10px;
 
   position: relative;
-	top: 5%; 
-	left: 5%; 
-	transform: translateX(-50%) translateY(-50%);
+  top: 5%;
+  left: 5%;
+  transform: translateX(-50%) translateY(-50%);
 }
-.usuarios-create-boton1:hover{
-	color: black;
-	background-color: #979eff;
+.usuarios-create-boton1:hover {
+  color: black;
+  background-color: #979eff;
 }
 
-.usuarios-create-boton2{
+.usuarios-create-boton2 {
   border: 1.5px solid #ff0000;
-	padding: 10px 20px;
-	color: black;
+  padding: 10px 20px;
+  color: black;
   font-size: 14px;
-	font-weight: 700px;
-	font-weight: bold;
-	text-transform: uppercase;
-	background: #fa2c2c;
-	transition: color 0.5s, background 0.5s;
-	border-radius: 10px;
+  font-weight: 700px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: #fa2c2c;
+  transition: color 0.5s, background 0.5s;
+  border-radius: 10px;
 
   position: relative;
-	top: 5%; 
-	left: 12%; 
-	transform: translateX(-50%) translateY(-50%);
+  top: 5%;
+  left: 12%;
+  transform: translateX(-50%) translateY(-50%);
 }
-.usuarios-create-boton2:hover{
-	color: #000000;
-	background-color: #ff6e6e;
+.usuarios-create-boton2:hover {
+  color: #000000;
+  background-color: #ff6e6e;
 }
 
-.container-usuarios-edit{
+.container-usuarios-edit {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   padding: 1em;
@@ -804,75 +787,73 @@
   height: 500px;
 }
 
-.usuarios-edit-input1{
+.usuarios-edit-input1 {
   width: 400px;
 }
-.usuarios-edit-input2{
+.usuarios-edit-input2 {
   width: 400px;
-  height: 100px
+  height: 100px;
 }
 
-.c-usuarios-edit-form{
-  
+.c-usuarios-edit-form {
   width: 700px;
   height: 450px;
   position: relative;
-	top: 50%; 
-	left: 50%; 
-	transform: translateX(-50%) translateY(-50%);
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
   border-radius: 20px 20px 20px 20px;
-
 
   background-image: url(https://image.freepik.com/vector-gratis/fondo-monocromatico-geometrico-degradado_23-2149000660.jpg);
   background-size: cover;
 }
 
-.c-usuarios-edit-form p{
+.c-usuarios-edit-form p {
   font-weight: bold;
 }
 
-.usuarios-edit-boton1{
+.usuarios-edit-boton1 {
   border: 1.5px solid #0502ca;
-	padding: 10px 20px;
-	color: black;
+  padding: 10px 20px;
+  color: black;
   font-size: 14px;
-	font-weight: 700px;
-	font-weight: bold;
-	text-transform: uppercase;
-	background: #4965ff;
-	transition: color 0.5s, background 0.5s;
-	border-radius: 10px;
+  font-weight: 700px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: #4965ff;
+  transition: color 0.5s, background 0.5s;
+  border-radius: 10px;
 
   position: relative;
-	top: 5%; 
-	left: 5%; 
-	transform: translateX(-50%) translateY(-50%);
+  top: 5%;
+  left: 5%;
+  transform: translateX(-50%) translateY(-50%);
 }
-.usuarios-edit-boton1:hover{
-	color: black;
-	background-color: #979eff;
+.usuarios-edit-boton1:hover {
+  color: black;
+  background-color: #979eff;
 }
 
-.usuarios-edit-boton2{
+.usuarios-edit-boton2 {
   border: 1.5px solid #ff0000;
-	padding: 10px 20px;
-	color: black;
+  padding: 10px 20px;
+  color: black;
   font-size: 14px;
-	font-weight: 700px;
-	font-weight: bold;
-	text-transform: uppercase;
-	background: #fa2c2c;
-	transition: color 0.5s, background 0.5s;
-	border-radius: 10px;
+  font-weight: 700px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: #fa2c2c;
+  transition: color 0.5s, background 0.5s;
+  border-radius: 10px;
 
   position: relative;
-	top: 5%; 
-	left: 12%; 
-	transform: translateX(-50%) translateY(-50%);
+  top: 5%;
+  left: 12%;
+  transform: translateX(-50%) translateY(-50%);
 }
-.usuarios-edit-boton2:hover{
-	color: #000000;
-	background-color: #ff6e6e;
+.usuarios-edit-boton2:hover {
+  color: #000000;
+  background-color: #ff6e6e;
 }
 
 .container-secciones-grid {
@@ -883,49 +864,48 @@
 
 .secciones-boton {
   border: 1.5px solid #56a056;
-	padding: 10px 80px;
-	color: black;
-	font-weight: 700px;
-	font-weight: bold;
-	text-transform: uppercase;
-	background: #8EE38E;
-	transition: color 0.5s, background 0.5s;
-	border-radius: 10px;
+  padding: 10px 80px;
+  color: black;
+  font-weight: 700px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: #8ee38e;
+  transition: color 0.5s, background 0.5s;
+  border-radius: 10px;
 }
 
-.secciones-boton:hover{
-	color: #56a056;
-	background-color: #BFF9BF;
+.secciones-boton:hover {
+  color: #56a056;
+  background-color: #bff9bf;
 }
 
-.secciones-tabla{
+.secciones-tabla {
   position: relative;
-	top: 50%; 
-	left: 50%; 
-	transform: translateX(-50%) translateY(-50%);
-  
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
 }
 
-.secciones-tabla th{
+.secciones-tabla th {
   padding: 1em;
 }
-.secciones-tabla td{
+.secciones-tabla td {
   padding: 0.3em;
 }
-.secciones-tabla thead{
-  background-color: #68B568;
+.secciones-tabla thead {
+  background-color: #68b568;
   border-bottom: 2px solid black;
   text-transform: uppercase;
 }
-.secciones-tabla tr:nth-child(even){
-  background-color: #DFFDDF;
+.secciones-tabla tr:nth-child(even) {
+  background-color: #dffddf;
 }
 
-.secciones-tabla tr:hover td{
-  background-color: #BFF9BF;
+.secciones-tabla tr:hover td {
+  background-color: #bff9bf;
 }
 
-.container-secciones-create{
+.container-secciones-create {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   padding: 1em;
@@ -935,78 +915,76 @@
   height: 500px;
 }
 
-.secciones-input1{
+.secciones-input1 {
   width: 400px;
 }
-.secciones-input2{
+.secciones-input2 {
   width: 400px;
-  height: 100px
+  height: 100px;
 }
 
-.c-secciones-create-form{
-  
+.c-secciones-create-form {
   width: 700px;
   height: 450px;
   position: relative;
-	top: 50%; 
-	left: 50%; 
-	transform: translateX(-50%) translateY(-50%);
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
   border-radius: 20px 20px 20px 20px;
-
 
   background-image: url(https://image.freepik.com/vector-gratis/fondo-monocromatico-geometrico-degradado_23-2149000660.jpg);
   background-size: cover;
 }
 
-.c-secciones-create-form p{
+.c-secciones-create-form p {
   font-weight: bold;
 }
 
-.secciones-create-boton1{
+.secciones-create-boton1 {
   border: 1.5px solid #0502ca;
-	padding: 10px 20px;
-	color: black;
+  padding: 10px 20px;
+  color: black;
   font-size: 14px;
-	font-weight: 700px;
-	font-weight: bold;
-	text-transform: uppercase;
-	background: #4965ff;
-	transition: color 0.5s, background 0.5s;
-	border-radius: 10px;
+  font-weight: 700px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: #4965ff;
+  transition: color 0.5s, background 0.5s;
+  border-radius: 10px;
 
   position: relative;
-	top: 40%; 
-	left: 5%; 
-	transform: translateX(-50%) translateY(-50%);
+  top: 40%;
+  left: 5%;
+  transform: translateX(-50%) translateY(-50%);
 }
-.secciones-create-boton1:hover{
-	color: black;
-	background-color: #979eff;
+.secciones-create-boton1:hover {
+  color: black;
+  background-color: #979eff;
 }
 
-.secciones-create-boton2{
+.secciones-create-boton2 {
   border: 1.5px solid #ff0000;
-	padding: 10px 20px;
-	color: black;
+  padding: 10px 20px;
+  color: black;
   font-size: 14px;
-	font-weight: 700px;
-	font-weight: bold;
-	text-transform: uppercase;
-	background: #fa2c2c;
-	transition: color 0.5s, background 0.5s;
-	border-radius: 10px;
+  font-weight: 700px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: #fa2c2c;
+  transition: color 0.5s, background 0.5s;
+  border-radius: 10px;
 
   position: relative;
-	top: 40%; 
-	left: 10%; 
-	transform: translateX(-50%) translateY(-50%);
+  top: 40%;
+  left: 10%;
+  transform: translateX(-50%) translateY(-50%);
 }
-.secciones-create-boton2:hover{
-	color: #000000;
-	background-color: #ff6e6e;
+.secciones-create-boton2:hover {
+  color: #000000;
+  background-color: #ff6e6e;
 }
 
-.container-secciones-edit{
+.container-secciones-edit {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   padding: 1em;
@@ -1016,75 +994,73 @@
   height: 500px;
 }
 
-.secciones-edit-input1{
+.secciones-edit-input1 {
   width: 400px;
 }
-.secciones-edit-input2{
+.secciones-edit-input2 {
   width: 400px;
-  height: 100px
+  height: 100px;
 }
 
-.c-secciones-edit-form{
-  
+.c-secciones-edit-form {
   width: 700px;
   height: 450px;
   position: relative;
-	top: 50%; 
-	left: 50%; 
-	transform: translateX(-50%) translateY(-50%);
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
   border-radius: 20px 20px 20px 20px;
-
 
   background-image: url(https://image.freepik.com/vector-gratis/fondo-monocromatico-geometrico-degradado_23-2149000660.jpg);
   background-size: cover;
 }
 
-.c-secciones-edit-form p{
+.c-secciones-edit-form p {
   font-weight: bold;
 }
 
-.secciones-edit-boton1{
+.secciones-edit-boton1 {
   border: 1.5px solid #0502ca;
-	padding: 10px 20px;
-	color: black;
+  padding: 10px 20px;
+  color: black;
   font-size: 14px;
-	font-weight: 700px;
-	font-weight: bold;
-	text-transform: uppercase;
-	background: #4965ff;
-	transition: color 0.5s, background 0.5s;
-	border-radius: 10px;
+  font-weight: 700px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: #4965ff;
+  transition: color 0.5s, background 0.5s;
+  border-radius: 10px;
 
   position: relative;
-	top: 40%; 
-	left: 5%; 
-	transform: translateX(-50%) translateY(-50%);
+  top: 40%;
+  left: 5%;
+  transform: translateX(-50%) translateY(-50%);
 }
-.secciones-edit-boton1:hover{
-	color: black;
-	background-color: #979eff;
+.secciones-edit-boton1:hover {
+  color: black;
+  background-color: #979eff;
 }
 
-.secciones-edit-boton2{
+.secciones-edit-boton2 {
   border: 1.5px solid #ff0000;
-	padding: 10px 20px;
-	color: black;
+  padding: 10px 20px;
+  color: black;
   font-size: 14px;
-	font-weight: 700px;
-	font-weight: bold;
-	text-transform: uppercase;
-	background: #fa2c2c;
-	transition: color 0.5s, background 0.5s;
-	border-radius: 10px;
+  font-weight: 700px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: #fa2c2c;
+  transition: color 0.5s, background 0.5s;
+  border-radius: 10px;
 
   position: relative;
-	top: 40%; 
-	left: 12%; 
-	transform: translateX(-50%) translateY(-50%);
+  top: 40%;
+  left: 12%;
+  transform: translateX(-50%) translateY(-50%);
 }
-.secciones-edit-boton2:hover{
-	color: #000000;
-	background-color: #ff6e6e;
+.secciones-edit-boton2:hover {
+  color: #000000;
+  background-color: #ff6e6e;
 }
 
 .container-preguntas-grid {
@@ -1095,49 +1071,48 @@
 
 .preguntas-boton {
   border: 1.5px solid #56a056;
-	padding: 10px 80px;
-	color: black;
-	font-weight: 700px;
-	font-weight: bold;
-	text-transform: uppercase;
-	background: #8EE38E;
-	transition: color 0.5s, background 0.5s;
-	border-radius: 10px;
+  padding: 10px 80px;
+  color: black;
+  font-weight: 700px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: #8ee38e;
+  transition: color 0.5s, background 0.5s;
+  border-radius: 10px;
 }
 
-.preguntas-boton:hover{
-	color: #56a056;
-	background-color: #BFF9BF;
+.preguntas-boton:hover {
+  color: #56a056;
+  background-color: #bff9bf;
 }
 
-.preguntas-tabla{
+.preguntas-tabla {
   position: relative;
-	top: 50%; 
-	left: 50%; 
-	transform: translateX(-50%) translateY(-50%);
-  
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
 }
 
-.preguntas-tabla th{
+.preguntas-tabla th {
   padding: 1em;
 }
-.preguntas-tabla td{
+.preguntas-tabla td {
   padding: 0.3em;
 }
-.preguntas-tabla thead{
-  background-color: #68B568;
+.preguntas-tabla thead {
+  background-color: #68b568;
   border-bottom: 2px solid black;
   text-transform: uppercase;
 }
-.preguntas-tabla tr:nth-child(even){
-  background-color: #DFFDDF;
+.preguntas-tabla tr:nth-child(even) {
+  background-color: #dffddf;
 }
 
-.preguntas-tabla tr:hover td{
-  background-color: #BFF9BF;
+.preguntas-tabla tr:hover td {
+  background-color: #bff9bf;
 }
 
-.container-preguntas-create{
+.container-preguntas-create {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   padding: 1em;
@@ -1147,75 +1122,72 @@
   height: 500px;
 }
 
-.preguntas-input1{
+.preguntas-input1 {
   width: 400px;
 }
 
-
-.c-preguntas-create-form{
-  
+.c-preguntas-create-form {
   width: 700px;
   height: 430px;
   position: relative;
-	top: 50%; 
-	left: 50%; 
-	transform: translateX(-50%) translateY(-50%);
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
   border-radius: 20px 20px 20px 20px;
-
 
   background-image: url(https://image.freepik.com/vector-gratis/fondo-monocromatico-geometrico-degradado_23-2149000660.jpg);
   background-size: cover;
 }
 
-.c-preguntas-create-form p{
+.c-preguntas-create-form p {
   font-weight: bold;
 }
 
-.preguntas-create-boton1{
+.preguntas-create-boton1 {
   border: 1.5px solid #0502ca;
-	padding: 10px 20px;
-	color: black;
+  padding: 10px 20px;
+  color: black;
   font-size: 14px;
-	font-weight: 700px;
-	font-weight: bold;
-	text-transform: uppercase;
-	background: #4965ff;
-	transition: color 0.5s, background 0.5s;
-	border-radius: 10px;
+  font-weight: 700px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: #4965ff;
+  transition: color 0.5s, background 0.5s;
+  border-radius: 10px;
 
   position: relative;
-	top: 30%; 
-	left: 5%; 
-	transform: translateX(-50%) translateY(-50%);
+  top: 30%;
+  left: 5%;
+  transform: translateX(-50%) translateY(-50%);
 }
-.preguntas-create-boton1:hover{
-	color: black;
-	background-color: #979eff;
+.preguntas-create-boton1:hover {
+  color: black;
+  background-color: #979eff;
 }
 
-.preguntas-create-boton2{
+.preguntas-create-boton2 {
   border: 1.5px solid #ff0000;
-	padding: 10px 20px;
-	color: black;
+  padding: 10px 20px;
+  color: black;
   font-size: 14px;
-	font-weight: 700px;
-	font-weight: bold;
-	text-transform: uppercase;
-	background: #fa2c2c;
-	transition: color 0.5s, background 0.5s;
-	border-radius: 10px;
+  font-weight: 700px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: #fa2c2c;
+  transition: color 0.5s, background 0.5s;
+  border-radius: 10px;
 
   position: relative;
-	top: 30%; 
-	left: 12%; 
-	transform: translateX(-50%) translateY(-50%);
+  top: 30%;
+  left: 12%;
+  transform: translateX(-50%) translateY(-50%);
 }
-.preguntas-create-boton2:hover{
-	color: #000000;
-	background-color: #ff6e6e;
+.preguntas-create-boton2:hover {
+  color: #000000;
+  background-color: #ff6e6e;
 }
 
-.container-preguntas-edit{
+.container-preguntas-edit {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   padding: 1em;
@@ -1225,71 +1197,67 @@
   height: 500px;
 }
 
-.preguntas-edit-input1{
+.preguntas-edit-input1 {
   width: 400px;
 }
 
-
-.c-preguntas-edit-form{
-  
+.c-preguntas-edit-form {
   width: 700px;
   height: 430px;
   position: relative;
-	top: 50%; 
-	left: 50%; 
-	transform: translateX(-50%) translateY(-50%);
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
   border-radius: 20px 20px 20px 20px;
-
 
   background-image: url(https://image.freepik.com/vector-gratis/fondo-monocromatico-geometrico-degradado_23-2149000660.jpg);
   background-size: cover;
 }
 
-.c-preguntas-edit-form p{
+.c-preguntas-edit-form p {
   font-weight: bold;
 }
 
-.preguntas-edit-boton1{
+.preguntas-edit-boton1 {
   border: 1.5px solid #0502ca;
-	padding: 10px 20px;
-	color: black;
+  padding: 10px 20px;
+  color: black;
   font-size: 14px;
-	font-weight: 700px;
-	font-weight: bold;
-	text-transform: uppercase;
-	background: #4965ff;
-	transition: color 0.5s, background 0.5s;
-	border-radius: 10px;
+  font-weight: 700px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: #4965ff;
+  transition: color 0.5s, background 0.5s;
+  border-radius: 10px;
 
   position: relative;
-	top: 30%; 
-	left: 5%; 
-	transform: translateX(-50%) translateY(-50%);
+  top: 30%;
+  left: 5%;
+  transform: translateX(-50%) translateY(-50%);
 }
-.preguntas-edit-boton1:hover{
-	color: black;
-	background-color: #979eff;
+.preguntas-edit-boton1:hover {
+  color: black;
+  background-color: #979eff;
 }
 
-.preguntas-edit-boton2{
+.preguntas-edit-boton2 {
   border: 1.5px solid #ff0000;
-	padding: 10px 20px;
-	color: black;
+  padding: 10px 20px;
+  color: black;
   font-size: 14px;
-	font-weight: 700px;
-	font-weight: bold;
-	text-transform: uppercase;
-	background: #fa2c2c;
-	transition: color 0.5s, background 0.5s;
-	border-radius: 10px;
+  font-weight: 700px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: #fa2c2c;
+  transition: color 0.5s, background 0.5s;
+  border-radius: 10px;
 
   position: relative;
-	top: 30%; 
-	left: 12%; 
-	transform: translateX(-50%) translateY(-50%);
+  top: 30%;
+  left: 12%;
+  transform: translateX(-50%) translateY(-50%);
 }
-.preguntas-edit-boton2:hover{
-	color: #000000;
-	background-color: #ff6e6e;
+.preguntas-edit-boton2:hover {
+  color: #000000;
+  background-color: #ff6e6e;
 }
-
