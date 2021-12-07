@@ -9,9 +9,17 @@ function EncuestasCreate() {
   const [selectedFile, setSelectedFile] = useState(null);
 
   useEffect(() => {
-    axios.get(URL_SERVIDOR + "/usuarios").then((response) => {
-      setUsuarios(response.data);
-    });
+    var token = JSON.parse(localStorage.getItem("token_user"));
+
+    axios
+      .get(URL_SERVIDOR + "/usuarios", {
+        headers: {
+          Authorization: `Bearer ${token.token}`,
+        },
+      })
+      .then((response) => {
+        setUsuarios(response.data);
+      });
   }, [setUsuarios]);
 
   const guardarencuesta = async (event) => {
