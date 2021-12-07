@@ -21,13 +21,13 @@ function Routing() {
         <Route path="/usuarios" exact component={Usuarios} />
         <Route path="/usuarios/editar/:id" exact component={UsuariosUpdate} />
         <Route path="/usuarios/crear" exact component={UsuariosCrear} />
-        <Route path="/encuestas/" exact component={Encuestas} />
+        <Route path="/encuestas" exact component={Encuestas} />
         <Route path="/encuestas/crear" exact component={EncuestasCreate} />
         <Route path="/encuestas/editar/:id" exact component={EncuestasEdit} />
-        <Route path="/secciones/" exact component={Secciones} />
+        <Route path="/secciones" exact component={Secciones} />
         <Route path="/secciones/crear" exact component={SeccionCreate} />
         <Route path="/secciones/editar/:id" exact component={SeccionUpdate} />
-        <Route path="/preguntas/" exact component={Preguntas} />
+        <Route path="/preguntas" exact component={Preguntas} />
         <Route path="/login" exact component={Login} />
       </Switch>
     </>
