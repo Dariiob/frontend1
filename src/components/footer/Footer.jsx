@@ -8,10 +8,10 @@ function Footer() {
       <footer className="footer">
         <Navbar>
           <Container>
-            <Navbar.Brand href="#home">OpinandoAndo</Navbar.Brand>
+            <Navbar.Brand href="#home">INTEGRANTES:</Navbar.Brand>
             <Nav className="me-auto">
               <Nav.Link href="#home">
-                Integrantes: Jhonjan Dario portilla , Faber andres Yela{" "}
+                Jhonjan Dario portilla , Faber andres Yela{" "}
               </Nav.Link>
             </Nav>
           </Container>
