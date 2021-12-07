@@ -2,7 +2,7 @@ import React from 'react'
 import { useHistory } from "react-router-dom";
 import axios from 'axios'
 import{useState, useEffect} from 'react'
-
+import URL_SERVIDOR from '../../constante';
 function EncuestasCreate(){
 
 let history = useHistory();

@@ -2,7 +2,7 @@ import React from 'react'
 import {useEffect, useState} from 'react'
 import {useHistory, useParams, Link} from 'react-router-dom'
 import axios from 'axios'
-
+import URL_SERVIDOR from '../../constante';
 function SeccionUpdate(){
 
    let history = useHistory();

@@ -1,7 +1,7 @@
 import {React, useState, useEffect} from 'react'
 import { useHistory, useParams} from "react-router-dom";
 import axios from 'axios'
-
+import URL_SERVIDOR from '../../constante';
 function EncuestasEdit(){
 
 const[encuesta, setEncuesta]=useState({id:'', nombre:'', descripcion:'', img_url:'', id_usuario:''});

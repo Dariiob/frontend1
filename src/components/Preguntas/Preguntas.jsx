@@ -2,7 +2,7 @@ import "../../App.css";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import axios from "axios";
 import { useState, useEffect } from "react";
-
+import URL_SERVIDOR from '../../constante';
 function Preguntas() {
   const [preguntas, setPreguntas] = useState([]);
   const [pregunta, setPregunta] = useState({
