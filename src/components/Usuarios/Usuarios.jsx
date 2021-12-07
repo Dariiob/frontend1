@@ -10,7 +10,7 @@ function Usuarios() {
     await axios.delete(URL_SERVIDOR + `/usuarios/${id}`).then((response) => {
       console.log(response.data);
     });
-    axios.get(URL_SERVIDOR + "/usuarios").then((response) => {
+    axios.get(URL_SERVIDOR + "/login").then((response) => {
       setUsuarios(response.data);
     });
   };
