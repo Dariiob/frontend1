@@ -2,9 +2,17 @@ import React from "react";
 import "../.././App.css";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import { useState } from "react";
+import { useEffect } from "react";
 
 function NavBar() {
-  var token = JSON.parse(localStorage.getItem("token_user"));
+
+  const [token, setToken] = useState("");
+  
+  useEffect(async () => {
+      var token = JSON.parse(localStorage.getItem("token_user"));
+      setToken(token);
+  }, [token])
 
   return (
     <Navbar className="navegacion">
