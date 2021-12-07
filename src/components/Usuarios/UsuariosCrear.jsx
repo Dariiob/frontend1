@@ -17,7 +17,7 @@ function UsuariosCrear() {
     await axios.post(URL_SERVIDOR + "/registros", data).then((response) => {
       console.log(response.data);
     });
-    history.push("/usuarios");
+    history.push("/login");
   };
   return (
     <>
