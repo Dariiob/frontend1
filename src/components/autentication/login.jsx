@@ -40,24 +40,7 @@ export default class Login extends React.Component {
 				errors: { 'usermsg': msg }
 			});
 			this.props.history.push("/encuestas");
-			}).catch(function (error) {
-				if (error.response) {
-					console.log("here in cath erormsg")
-					// Request made and server responded
-					//this.state.errorServe=true
-					msg=error.response.data
-					console.log(error.response.data);
-					//console.log(error.response.status);
-					//console.log(error.response.headers);
-				} else if (error.request) {
-					// The request was made but no response was received
-					console.log(error.request);
-				} else {
-					// Something happened in setting up the request that triggered an Error
-					console.log('Error', error.message);
-				}
-
-			});
+			}).catch(error => alert(error));
 		if(msg!==""){
 			this.setState({
 				errors: { 'usermsg': msg }
