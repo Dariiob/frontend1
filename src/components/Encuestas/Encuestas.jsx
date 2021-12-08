@@ -6,6 +6,7 @@ import URL_SERVIDOR from "../../constante";
 
 function Encuestas() {
   const [encuestas, setEncuestas] = useState([]);
+  const [loading, setLoading] = useState(true);
 
   const deleteEncuesta = async (id) => {
     await axios.delete(URL_SERVIDOR + `/encuesta/${id}`).then((response) => {
@@ -15,7 +16,7 @@ function Encuestas() {
       });
     });
   };
-
+  
   useEffect(() => {
     axios.get(URL_SERVIDOR + "/encuestas").then((response) => {
       //console.log(response.data);
@@ -26,14 +27,13 @@ function Encuestas() {
   return (
     <>
       <div className="container-encuestas-grid">
+      {loading && (<p>Loading...</p>)}
         <div className="c1-encuestas">
           <Link to="/encuestas/crear">
             <button className="encuestas-boton">Crear Encuesta</button>
           </Link>
         </div>
-          <div id="myProgress">
-          <div id="myBar"></div>
-          </div>
+        
         <div className="c2-encuestas-tabla">
           <table className="encuestas-tabla">
             <thead>
