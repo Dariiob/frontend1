@@ -98,7 +98,7 @@ function Preguntas() {
     };
 
     await axios
-      .post("http://localhost:5000/preguntas", data)
+      .post(URL_SERVIDOR + "/preguntas", data)
       .then((response) => {
         console.log(response.data);
       });

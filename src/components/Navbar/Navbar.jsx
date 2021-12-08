@@ -19,7 +19,7 @@ function NavBar() {
       <Container>
         <Link to="/">
           <img src="./pensamiento.png" width="50px" />
-          <Navbar.Brand href="/">OpinandoAndo</Navbar.Brand>
+          <Navbar.Brand href="/">BIENBENIDOS</Navbar.Brand>
         </Link>
 
         <Nav className="mx-auto">
